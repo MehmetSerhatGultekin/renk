@@ -9,7 +9,7 @@ class LogInVC: BackgroundDesign {
         super.viewDidLoad()
         setupGradientBackground()
         textFieldsdAttributes(textField1: mailTF, textfield2: passwordTF)
-        logInbuttonAttributes(button: logInButton)
+        logInButtonAttributes(button: logInButton)
 
     }
 }

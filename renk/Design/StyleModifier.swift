@@ -18,7 +18,7 @@ public func textFieldsdAttributes (textField1: UITextField, textfield2: UITextFi
     tf.layer.shadowOffset = CGSize(width: 2, height: 2)
     tf.layer.shadowOpacity = 0.5
     tf.layer.shadowRadius = 5
-    tf.layer.masksToBounds = false
+        tf.layer.masksToBounds = false
     
     let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: 10, height: tf.frame.height))
     tf.leftView = paddingView
@@ -53,7 +53,7 @@ public func textFieldsdAttributes (textField1: UITextField, textfield2: UITextFi
     
 }
 
-public func logInbuttonAttributes (button: UIButton) {
+public func logInButtonAttributes (button: UIButton) {
     let button = button
     
     button.layer.cornerRadius = 12
@@ -69,6 +69,7 @@ public func logInbuttonAttributes (button: UIButton) {
     
     
 }
+
 
 
 

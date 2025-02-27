@@ -14,7 +14,7 @@
 		D1A616A82D6DF57C00252A16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A616A72D6DF57C00252A16 /* Assets.xcassets */; };
 		D1A616AB2D6DF57C00252A16 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D1A616AA2D6DF57C00252A16 /* Base */; };
 		D1A616B52D7093A300252A16 /* BackGroundDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A616B42D7093A300252A16 /* BackGroundDesign.swift */; };
-		D1A616B72D70A16100252A16 /* LogInVCComponentsDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A616B62D70A16100252A16 /* LogInVCComponentsDesign.swift */; };
+		D1A616B72D70A16100252A16 /* StyleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A616B62D70A16100252A16 /* StyleModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		D1A616AA2D6DF57C00252A16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1A616AC2D6DF57C00252A16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1A616B42D7093A300252A16 /* BackGroundDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGroundDesign.swift; sourceTree = "<group>"; };
-		D1A616B62D70A16100252A16 /* LogInVCComponentsDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVCComponentsDesign.swift; sourceTree = "<group>"; };
+		D1A616B62D70A16100252A16 /* StyleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 		D1A616B82D70ADBD00252A16 /* Design */ = {
 			isa = PBXGroup;
 			children = (
-				D1A616B62D70A16100252A16 /* LogInVCComponentsDesign.swift */,
+				D1A616B62D70A16100252A16 /* StyleModifier.swift */,
 				D1A616B42D7093A300252A16 /* BackGroundDesign.swift */,
 			);
 			path = Design;
@@ -160,7 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1A616B72D70A16100252A16 /* LogInVCComponentsDesign.swift in Sources */,
+				D1A616B72D70A16100252A16 /* StyleModifier.swift in Sources */,
 				D1A616A32D6DF57A00252A16 /* LogInVC.swift in Sources */,
 				D1A6169F2D6DF57A00252A16 /* AppDelegate.swift in Sources */,
 				D1A616A12D6DF57A00252A16 /* SceneDelegate.swift in Sources */,
