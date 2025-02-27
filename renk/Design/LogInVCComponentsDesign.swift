@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-public func textFieldsdAttributes(textField1: UITextField, textfield2: UITextField) {
+public func textFieldsdAttributes (textField1: UITextField, textfield2: UITextField) {
     let tf = textField1
     tf.borderStyle = .none
     tf.layer.cornerRadius = 12
@@ -53,7 +53,7 @@ public func textFieldsdAttributes(textField1: UITextField, textfield2: UITextFie
     
 }
 
-public func logInbuttonAttributes(button: UIButton) {
+public func logInbuttonAttributes (button: UIButton) {
     let button = button
     
     button.layer.cornerRadius = 12
